@@ -14,7 +14,7 @@ loading into Excel or into databases.
 The index may be [downloaded as a zip
 file](https://github.com/edwardabraham/new-zealand-birds/archive/master.zip).
 This file contains a csv file with a list of the birds on 
-[New Zealand birds online]((http://nzbirdsonline.org.nz) ,
+[New Zealand birds online]((http://nzbirdsonline.org.nz),
 giving their common name, scientific name, status, and a link to the
 corresponding web page. Note that the content on
 [New Zealand birds online](http://nzbirdsonline.org.nz) is copyright, and
