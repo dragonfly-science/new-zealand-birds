@@ -8,20 +8,20 @@ common and scientfic names may be considered authoritative.
 
 Using the index
 ----------------
-The index is presented as a csv file, suitable for
+The index is presented as a `CSV` file, suitable for
 loading into Excel or into databases.
 
-This repository contains a list of the birds on 
+The index may be [downloaded as a zip
+file](https://github.com/edwardabraham/new-zealand-birds/archive/master.zip).
+This file contains a `CSV` file with a list of the birds on 
 [New Zealand birds online]((http://nzbirdsonline.org.nz) ,
 giving their common name, scientific name, status, and a link to the
-corresponding web page.  The repository may be downloaded as a zip
-file.
-
-The script that was used to generate the index is also included. Note that
-this script will be fragile to changes in the HTML. The content on
+corresponding web page. Note that the content on
 [New Zealand birds online](http://nzbirdsonline.org.nz) is copyright, and
 only the index information is included.
 
+The script that was used to generate the index is also included. Note that
+this script will be fragile to changes in the HTML. 
 
 Generating the index
 --------------------
