@@ -3,7 +3,8 @@ from HTMLParser import HTMLParser
 import re
 import urllib2
 
-#Uses BeautifulSoup 3, syntax has since changes
+#Uses BeautifulSoup 3, the syntax has since changed,
+#so this may need to be updated
 from BeautifulSoup import BeautifulSoup as bs
 
 nzbirds_base = 'http://nzbirdsonline.org.nz'
