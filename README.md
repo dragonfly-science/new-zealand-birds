@@ -6,16 +6,22 @@ is a comprehensive record of the bird species
 that occur in New Zealand, including vagrant and extinct birds. The
 common and scientfic names may be considered authoritative.
 
+Using the index
+----------------
+The index is presented as a csv file, suitable for
+loading into Excel or into databases.
+
 This repository contains a list of the birds on 
 [New Zealand birds online]((http://nzbirdsonline.org.nz) ,
 giving their common name, scientific name, status, and a link to the
-corresponding web page. The index is presented as a csv file, suitable for
-loading into Excel or into databases.
+corresponding web page.  The repository may be downloaded as a zip
+file.
 
 The script that was used to generate the index is also included. Note that
 this script will be fragile to changes in the HTML. The content on
 [New Zealand birds online](http://nzbirdsonline.org.nz) is copyright, and
 only the index information is included.
+
 
 Generating the index
 --------------------
