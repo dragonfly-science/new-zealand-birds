@@ -1,4 +1,4 @@
-List of New Zealand Birds
+List of New Zealand birds
 =========================
 
 [New Zealand Birds Online](http://nzbirdsonline.org.nz) 
