@@ -1,10 +1,11 @@
-Index of [New Zealand Birds online](http://nzbirdsonline.org.nz)
-================================================================
+List of New Zealand Birds
+=========================
 
 [New Zealand Birds online](http://nzbirdsonline.org.nz) 
 is a comprehensive record of the bird species
-that occur in New Zealand, including vagrant and extinct birds. The
-common and scientfic names may be considered authoritative.
+that occur in New Zealand, including vagrant and extinct birds. This website
+is a joint project between Te Papa and the Ornithological Society of New
+Zealand, and the common and scientfic names may be considered to be reliable.
 
 Using the index
 ----------------
@@ -14,13 +15,24 @@ loading into Excel or into databases.
 The index may be [downloaded as a zip
 file](https://github.com/edwardabraham/new-zealand-birds/archive/master.zip).
 This file contains a csv file with a list of the birds on 
-[New Zealand birds online]((http://nzbirdsonline.org.nz),
+[New Zealand birds online](http://nzbirdsonline.org.nz),
 giving their common name, scientific name, status, and a link to the
-corresponding web page. Note that the content on
-[New Zealand birds online](http://nzbirdsonline.org.nz) is copyright, and
-only the index information is included.
+corresponding web page. 
 
-The script that was used to generate the index , and this README, are also included.
+The script that was used to generate the list, and this help text, are also included
+in the zip file.
+
+Licence
+-------
+Thanks to Colin Miskelly, the principal curator of
+[New Zealand birds online](http://nzbirdsonline.org.nz),
+this list is released into public domain under a 
+[CC0 licence](https://creativecommons.org/publicdomain/zero/1.0/). You are welcome
+to use this list for whatever purpose you want.
+
+Note that the text and image content on
+[New Zealand birds online](http://nzbirdsonline.org.nz) is copyright, and 
+only the species names and status information are released into the public domain.
 
 Generating the index
 --------------------
