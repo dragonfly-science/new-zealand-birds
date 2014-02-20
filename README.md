@@ -30,7 +30,7 @@ this list is released into public domain under a
 [CC0 licence](https://creativecommons.org/publicdomain/zero/1.0/). You are welcome
 to use this list for whatever purpose you want.
 
-Note that the text and image content on
+Note that the other text, image, and media content on
 [New Zealand birds online](http://nzbirdsonline.org.nz) is copyright, and 
 only the species names and status information are released into the public domain.
 
