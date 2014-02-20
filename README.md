@@ -7,14 +7,14 @@ that occur in New Zealand, including vagrant and extinct birds. This website
 is a joint project between Te Papa, the Ornithological Society of New
 Zealand, and the Department of Conservation. The common and scientfic names may be considered to be reliable.
 
-Using the index
+Using the list
 ----------------
 The index is presented as a csv file, suitable for
 loading into Excel or into databases.
 
-The index may be [downloaded as a zip
-file](https://github.com/edwardabraham/new-zealand-birds/archive/master.zip).
-This file contains a csv file with a list of the birds on 
+The list may be [downloaded as a zip
+file](https://github.com/dragonfly-science/new-zealand-birds/archive/master.zip).
+This file contains a csv file with a list of all the birds on 
 [New Zealand Birds Online](http://nzbirdsonline.org.nz),
 giving their common name, scientific name, status, and a link to the
 corresponding web page. 
