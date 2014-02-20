@@ -10,7 +10,7 @@ Zealand, and the Department of Conservation. The common and scientfic names may 
 Using the list
 ----------------
 The index is presented as a csv file, suitable for
-loading into Excel or into databases.
+opening with Excel, or loading into databases.
 
 The list may be [downloaded as a zip
 file](https://github.com/dragonfly-science/new-zealand-birds/archive/master.zip).
