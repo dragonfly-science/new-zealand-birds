@@ -9,7 +9,7 @@ Zealand, and the Department of Conservation. The common and scientfic names may 
 
 Using the list
 ----------------
-The index is presented as a csv file, suitable for
+The list is presented as a csv file, suitable for
 opening with Excel, or loading into databases.
 
 The list may be [downloaded as a zip
