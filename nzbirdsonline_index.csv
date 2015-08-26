@@ -1,6 +1,6 @@
 common_name,scientific_name,status,url
-Little bush moa,Anomalopteryx didiformis,Extinct,http://nzbirdsonline.org.nz/species/little-bush-moa
 Upland moa,Megalapteryx didinus,Extinct,http://nzbirdsonline.org.nz/species/upland-moa
+Little bush moa,Anomalopteryx didiformis,Extinct,http://nzbirdsonline.org.nz/species/little-bush-moa
 Heavy-footed moa,Pachyornis elephantopus,Extinct,http://nzbirdsonline.org.nz/species/heavy-footed-moa
 Mantell's moa,Pachyornis geranoides,Extinct,http://nzbirdsonline.org.nz/species/mantells-moa
 Crested moa,Pachyornis australis,Extinct,http://nzbirdsonline.org.nz/species/crested-moa
@@ -16,6 +16,7 @@ Great spotted kiwi,Apteryx haastii,Nationally Vulnerable,http://nzbirdsonline.or
 California quail,Callipepla californica,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/california-quail
 Helmeted guineafowl,Numida meleagris,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/helmeted-guineafowl
 Chukor,Alectoris chukar,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/chukor
+Red-legged partridge,Alectoris rufa,"Introduced, not established",http://nzbirdsonline.org.nz/species/red-legged-partridge
 New Zealand quail,Coturnix novaezelandiae,Extinct,http://nzbirdsonline.org.nz/species/new-zealand-quail
 Brown quail,Coturnix ypsilophora,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/brown-quail
 Common pheasant,Phasianus colchicus,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/common-pheasant
@@ -35,7 +36,8 @@ New Zealand blue-billed duck,Oxyura vantetsi,Extinct,http://nzbirdsonline.org.nz
 New Zealand musk duck,Biziura delautouri,Extinct,http://nzbirdsonline.org.nz/species/new-zealand-musk-duck
 Paradise shelduck,Tadorna variegata,Not Threatened,http://nzbirdsonline.org.nz/species/paradise-shelduck
 Chestnut-breasted shelduck,Tadorna tadornoides,Vagrant,http://nzbirdsonline.org.nz/species/chestnut-breasted-shelduck
-New Zealand merganser,Mergus australis,Extinct,http://nzbirdsonline.org.nz/species/new-zealand-merganser
+Auckland Island merganser,Mergus australis,Extinct,http://nzbirdsonline.org.nz/species/auckland-island-merganser
+Chatham Island merganser,Mergus milleneri,Extinct,http://nzbirdsonline.org.nz/species/chatham-island-merganser
 Australian wood duck,Chenonetta jubata,Vagrant,http://nzbirdsonline.org.nz/species/australian-wood-duck
 Finsch's duck,Chenonetta finschi,Extinct,http://nzbirdsonline.org.nz/species/finschs-duck
 Blue duck,Hymenolaimus malacorhynchos,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/blue-duck
@@ -64,29 +66,29 @@ Chinstrap penguin,Pygoscelis antarctica,Vagrant,http://nzbirdsonline.org.nz/spec
 Western rockhopper penguin,Eudyptes chrysocome,Vagrant,http://nzbirdsonline.org.nz/species/western-rockhopper-penguin
 Eastern rockhopper penguin,Eudyptes filholi,Nationally Critical,http://nzbirdsonline.org.nz/species/eastern-rockhopper-penguin
 Moseley's rockhopper penguin,Eudyptes moseleyi,Vagrant,http://nzbirdsonline.org.nz/species/moseleys-rockhopper-penguin
-Fiordland crested penguin,Eudyptes pachyrhynchus,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/fiordland-crested-penguin
+Fiordland crested penguin,Eudyptes pachyrhynchus,Nationally Endangered,http://nzbirdsonline.org.nz/species/fiordland-crested-penguin
 Snares crested penguin,Eudyptes robustus,Naturally Uncommon,http://nzbirdsonline.org.nz/species/snares-crested-penguin
-Erect-crested penguin,Eudyptes sclateri,Naturally Uncommon,http://nzbirdsonline.org.nz/species/erect-crested-penguin
+Erect-crested penguin,Eudyptes sclateri,Declining,http://nzbirdsonline.org.nz/species/erect-crested-penguin
 Macaroni penguin,Eudyptes chrysolophus,Vagrant,http://nzbirdsonline.org.nz/species/macaroni-penguin
 Royal penguin,Eudyptes schlegeli,Vagrant,http://nzbirdsonline.org.nz/species/royal-penguin
 Yellow-eyed penguin,Megadyptes antipodes,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/yellow-eyed-penguin
 Waitaha penguin,Megadyptes waitaha,Extinct,http://nzbirdsonline.org.nz/species/waitaha-penguin
 Little penguin,Eudyptula minor,Declining,http://nzbirdsonline.org.nz/species/little-penguin
 Wandering albatross,Diomedea exulans,Migrant,http://nzbirdsonline.org.nz/species/wandering-albatross
-Antipodean albatross,Diomedea antipodensis,Naturally Uncommon,http://nzbirdsonline.org.nz/species/antipodean-albatross
+Antipodean albatross,Diomedea antipodensis,Nationally Critical,http://nzbirdsonline.org.nz/species/antipodean-albatross
 Southern royal albatross,Diomedea epomophora,Naturally Uncommon,http://nzbirdsonline.org.nz/species/southern-royal-albatross
 Northern royal albatross,Diomedea sanfordi,Naturally Uncommon,http://nzbirdsonline.org.nz/species/northern-royal-albatross
 Black-footed albatross,Phoebastria nigripes,Vagrant,http://nzbirdsonline.org.nz/species/black-footed-albatross
 Laysan albatross,Phoebastria immutabilis,Vagrant,http://nzbirdsonline.org.nz/species/laysan-albatross
 Atlantic yellow-nosed mollymawk,Thalassarche chlororhynchos,Vagrant,http://nzbirdsonline.org.nz/species/atlantic-yellow-nosed-mollymawk
 Indian Ocean yellow-nosed mollymawk,Thalassarche carteri,Coloniser,http://nzbirdsonline.org.nz/species/indian-ocean-yellow-nosed-mollymawk
-Grey-headed mollymawk,Thalassarche chrysostoma,Nationally Critical,http://nzbirdsonline.org.nz/species/grey-headed-mollymawk
+Grey-headed mollymawk,Thalassarche chrysostoma,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/grey-headed-mollymawk
 Black-browed mollymawk,Thalassarche melanophris,Coloniser,http://nzbirdsonline.org.nz/species/black-browed-mollymawk
 Campbell black-browed mollymawk,Thalassarche impavida,Naturally Uncommon,http://nzbirdsonline.org.nz/species/campbell-black-browed-mollymawk
 Buller's mollymawk,Thalassarche bulleri,Naturally Uncommon,http://nzbirdsonline.org.nz/species/bullers-mollymawk
 White-capped mollymawk,Thalassarche cauta,Declining,http://nzbirdsonline.org.nz/species/white-capped-mollymawk
 Chatham Island mollymawk,Thalassarche eremita,Naturally Uncommon,http://nzbirdsonline.org.nz/species/chatham-island-mollymawk
-Salvin's mollymawk,Thalassarche salvini,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/salvins-mollymawk
+Salvin's mollymawk,Thalassarche salvini,Nationally Critical,http://nzbirdsonline.org.nz/species/salvins-mollymawk
 Sooty albatross,Phoebetria fusca,Vagrant,http://nzbirdsonline.org.nz/species/sooty-albatross
 Light-mantled sooty albatross,Phoebetria palpebrata,Declining,http://nzbirdsonline.org.nz/species/light-mantled-sooty-albatross
 Southern giant petrel,Macronectes giganteus,Migrant,http://nzbirdsonline.org.nz/species/southern-giant-petrel
@@ -123,13 +125,13 @@ Bulwer's petrel,Bulweria bulwerii,Vagrant,http://nzbirdsonline.org.nz/species/bu
 White-chinned petrel,Procellaria aequinoctialis,Declining,http://nzbirdsonline.org.nz/species/white-chinned-petrel
 Westland petrel,Procellaria westlandica,Naturally Uncommon,http://nzbirdsonline.org.nz/species/westland-petrel
 Black petrel,Procellaria parkinsoni,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/black-petrel
-Grey petrel,Procellaria cinerea,Declining,http://nzbirdsonline.org.nz/species/grey-petrel
+Grey petrel,Procellaria cinerea,Naturally Uncommon,http://nzbirdsonline.org.nz/species/grey-petrel
 Tahiti petrel,Pseudobulweria rostrata,Vagrant,http://nzbirdsonline.org.nz/species/tahiti-petrel
 Cory's shearwater,Calonectris borealis,Vagrant,http://nzbirdsonline.org.nz/species/corys-shearwater
 Streaked shearwater,Calonectris leucomelas,Vagrant,http://nzbirdsonline.org.nz/species/streaked-shearwater
 Wedge-tailed shearwater,Puffinus pacificus,Relict,http://nzbirdsonline.org.nz/species/wedge-tailed-shearwater
 Buller's shearwater,Puffinus bulleri,Naturally Uncommon,http://nzbirdsonline.org.nz/species/bullers-shearwater
-Flesh-footed shearwater,Puffinus carneipes,Declining,http://nzbirdsonline.org.nz/species/flesh-footed-shearwater
+Flesh-footed shearwater,Puffinus carneipes,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/flesh-footed-shearwater
 Pink-footed shearwater,Puffinus creatopus,Vagrant,http://nzbirdsonline.org.nz/species/pink-footed-shearwater
 Great shearwater,Puffinus gravis,Vagrant,http://nzbirdsonline.org.nz/species/great-shearwater
 Sooty shearwater,Puffinus griseus,Declining,http://nzbirdsonline.org.nz/species/sooty-shearwater
@@ -146,7 +148,7 @@ Wilson's storm petrel,Oceanites oceanicus,Migrant,http://nzbirdsonline.org.nz/sp
 Grey-backed storm petrel,Garrodia nereis,Relict,http://nzbirdsonline.org.nz/species/grey-backed-storm-petrel
 White-faced storm petrel,Pelagodroma marina,Relict,http://nzbirdsonline.org.nz/species/white-faced-storm-petrel
 Kermadec storm petrel,Pelagodroma albiclunis,Nationally Critical,http://nzbirdsonline.org.nz/species/kermadec-storm-petrel
-New Zealand storm petrel,Fregetta maoriana,Data Deficient,http://nzbirdsonline.org.nz/species/new-zealand-storm-petrel
+New Zealand storm petrel,Fregetta maoriana,Nationally Endangered,http://nzbirdsonline.org.nz/species/new-zealand-storm-petrel
 Black-bellied storm petrel,Fregetta tropica,Not Threatened,http://nzbirdsonline.org.nz/species/black-bellied-storm-petrel
 White-bellied storm petrel,Fregetta grallaria,Nationally Endangered,http://nzbirdsonline.org.nz/species/white-bellied-storm-petrel
 Leach's storm petrel,Oceanodroma leucorhoa,Vagrant,http://nzbirdsonline.org.nz/species/leachs-storm-petrel
@@ -159,19 +161,19 @@ Cape gannet,Morus capensis,Vagrant,http://nzbirdsonline.org.nz/species/cape-gann
 Australasian gannet,Morus serrator,Not Threatened,http://nzbirdsonline.org.nz/species/australasian-gannet
 Brown booby,Sula leucogaster,Vagrant,http://nzbirdsonline.org.nz/species/brown-booby
 Masked booby,Sula dactylatra,Nationally Endangered,http://nzbirdsonline.org.nz/species/masked-booby
-Little shag,Phalacrocorax melanoleucos,Naturally Uncommon,http://nzbirdsonline.org.nz/species/little-shag
+Little shag,Phalacrocorax melanoleucos,Not Threatened,http://nzbirdsonline.org.nz/species/little-shag
 Black shag,Phalacrocorax carbo,Naturally Uncommon,http://nzbirdsonline.org.nz/species/black-shag
 Pied shag,Phalacrocorax varius,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/pied-shag
 Little black shag,Phalacrocorax sulcirostris,Naturally Uncommon,http://nzbirdsonline.org.nz/species/little-black-shag
 New Zealand king shag,Leucocarbo carunculatus,Nationally Endangered,http://nzbirdsonline.org.nz/species/new-zealand-king-shag
 Stewart Island shag,Leucocarbo chalconotus,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/stewart-island-shag
-Chatham Island shag,Leucocarbo onslowi,Nationally Endangered,http://nzbirdsonline.org.nz/species/chatham-island-shag
-Bounty Island shag,Leucocarbo ranfurlyi,Nationally Critical,http://nzbirdsonline.org.nz/species/bounty-island-shag
+Chatham Island shag,Leucocarbo onslowi,Nationally Critical,http://nzbirdsonline.org.nz/species/chatham-island-shag
+Bounty Island shag,Leucocarbo ranfurlyi,Nationally Endangered,http://nzbirdsonline.org.nz/species/bounty-island-shag
 Auckland Island shag,Leucocarbo colensoi,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/auckland-island-shag
 Campbell Island shag,Leucocarbo campbelli,Naturally Uncommon,http://nzbirdsonline.org.nz/species/campbell-island-shag
 Macquarie Island shag,Leucocarbo purpurascens,Not evaluated,http://nzbirdsonline.org.nz/species/macquarie-island-shag
 Spotted shag,Stictocarbo punctatus,Not Threatened,http://nzbirdsonline.org.nz/species/spotted-shag
-Pitt Island shag,Stictocarbo featherstoni,Nationally Endangered,http://nzbirdsonline.org.nz/species/pitt-island-shag
+Pitt Island shag,Stictocarbo featherstoni,Nationally Critical,http://nzbirdsonline.org.nz/species/pitt-island-shag
 Darter,Anhinga melanogaster,Vagrant,http://nzbirdsonline.org.nz/species/darter
 Great frigatebird,Fregata minor,Vagrant,http://nzbirdsonline.org.nz/species/great-frigatebird
 Lesser frigatebird,Fregata ariel,Vagrant,http://nzbirdsonline.org.nz/species/lesser-frigatebird
@@ -182,7 +184,7 @@ Cattle egret,Ardea ibis,Migrant,http://nzbirdsonline.org.nz/species/cattle-egret
 Plumed egret,Ardea intermedia,Vagrant,http://nzbirdsonline.org.nz/species/plumed-egret
 White-faced heron,Egretta novaehollandiae,Not Threatened,http://nzbirdsonline.org.nz/species/white-faced-heron
 Little egret,Egretta garzetta,Vagrant,http://nzbirdsonline.org.nz/species/little-egret
-Reef heron,Egretta sacra,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/reef-heron
+Reef heron,Egretta sacra,Nationally Endangered,http://nzbirdsonline.org.nz/species/reef-heron
 Nankeen night heron,Nycticorax caledonicus,Coloniser,http://nzbirdsonline.org.nz/species/nankeen-night-heron
 Australasian bittern,Botaurus poiciloptilus,Nationally Endangered,http://nzbirdsonline.org.nz/species/australasian-bittern
 Little bittern,Ixobrychus minutus,Vagrant,http://nzbirdsonline.org.nz/species/little-bittern
@@ -205,7 +207,7 @@ North Island adzebill,Aptornis otidiformis,Extinct,http://nzbirdsonline.org.nz/s
 South Island adzebill,Aptornis defossor,Extinct,http://nzbirdsonline.org.nz/species/south-island-adzebill
 Corncrake,Crex crex,Vagrant,http://nzbirdsonline.org.nz/species/corncrake
 Auckland Island rail,Lewinia muelleri,Naturally Uncommon,http://nzbirdsonline.org.nz/species/auckland-island-rail
-Banded rail,Gallirallus philippensis,Naturally Uncommon,http://nzbirdsonline.org.nz/species/banded-rail
+Banded rail,Gallirallus philippensis,Declining,http://nzbirdsonline.org.nz/species/banded-rail
 Dieffenbach's rail,Gallirallus dieffenbachii,Extinct,http://nzbirdsonline.org.nz/species/dieffenbachs-rail
 Weka,Gallirallus australis,Declining,http://nzbirdsonline.org.nz/species/weka
 Chatham Island rail,Cabalus modestus,Extinct,http://nzbirdsonline.org.nz/species/chatham-island-rail
@@ -231,7 +233,7 @@ Chatham Island snipe,Coenocorypha pusilla,Nationally Vulnerable,http://nzbirdson
 Snares Island snipe,Coenocorypha huegeli,Naturally Uncommon,http://nzbirdsonline.org.nz/species/snares-island-snipe
 Subantarctic snipe,Coenocorypha aucklandica,Naturally Uncommon,http://nzbirdsonline.org.nz/species/subantarctic-snipe
 Japanese snipe,Gallinago hardwickii,Vagrant,http://nzbirdsonline.org.nz/species/japanese-snipe
-Lesser knot,Calidris canutus,Migrant,http://nzbirdsonline.org.nz/species/lesser-knot
+Lesser knot,Calidris canutus,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/lesser-knot
 Great knot,Calidris tenuirostris,Vagrant,http://nzbirdsonline.org.nz/species/great-knot
 Sanderling,Calidris alba,Vagrant,http://nzbirdsonline.org.nz/species/sanderling
 Dunlin,Calidris alpina,Vagrant,http://nzbirdsonline.org.nz/species/dunlin
@@ -248,13 +250,14 @@ Least sandpiper,Calidris minutilla,Vagrant,http://nzbirdsonline.org.nz/species/l
 Semipalmated sandpiper,Calidris pusilla,Vagrant,http://nzbirdsonline.org.nz/species/semipalmated-sandpiper
 Western sandpiper,Calidris mauri,Vagrant,http://nzbirdsonline.org.nz/species/western-sandpiper
 Broad-billed sandpiper,Limicola falcinellus,Vagrant,http://nzbirdsonline.org.nz/species/broad-billed-sandpiper
+Buff-breasted sandpiper,Tryngites subruficollis,Vagrant,http://nzbirdsonline.org.nz/species/buff-breasted-sandpiper
 Ruff,Philomachus pugnax,Vagrant,http://nzbirdsonline.org.nz/species/ruff
 Asiatic dowitcher,Limnodromus semipalmatus,Vagrant,http://nzbirdsonline.org.nz/species/asiatic-dowitcher
 Eastern curlew,Numenius madagascariensis,Migrant,http://nzbirdsonline.org.nz/species/eastern-curlew
 Whimbrel,Numenius phaeopus,Migrant,http://nzbirdsonline.org.nz/species/whimbrel
 Little whimbrel,Numenius minutus,Vagrant,http://nzbirdsonline.org.nz/species/little-whimbrel
 Bristle-thighed curlew,Numenius tahitiensis,Vagrant,http://nzbirdsonline.org.nz/species/bristle-thighed-curlew
-Bar-tailed godwit,Limosa lapponica,Migrant,http://nzbirdsonline.org.nz/species/bar-tailed-godwit
+Bar-tailed godwit,Limosa lapponica,Declining,http://nzbirdsonline.org.nz/species/bar-tailed-godwit
 Black-tailed godwit,Limosa limosa,Vagrant,http://nzbirdsonline.org.nz/species/black-tailed-godwit
 Hudsonian godwit,Limosa haemastica,Vagrant,http://nzbirdsonline.org.nz/species/hudsonian-godwit
 Upland sandpiper,Bartramia longicauda,Vagrant,http://nzbirdsonline.org.nz/species/upland-sandpiper
@@ -279,7 +282,6 @@ Red-necked avocet,Recurvirostra novaehollandiae,Vagrant,http://nzbirdsonline.org
 Pacific golden plover,Pluvialis fulva,Migrant,http://nzbirdsonline.org.nz/species/pacific-golden-plover
 American golden plover,Pluvialis dominicus,Vagrant,http://nzbirdsonline.org.nz/species/american-golden-plover
 Grey plover,Pluvialis squatarola,Vagrant,http://nzbirdsonline.org.nz/species/grey-plover
-Lyall's wren,Traversia lyalli,Extinct,http://nzbirdsonline.org.nz/species/lyalls-wren
 New Zealand dotterel,Charadrius obscurus,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/new-zealand-dotterel
 Semipalmated plover,Charadrius semipalmatus,Vagrant,http://nzbirdsonline.org.nz/species/semipalmated-plover
 Red-capped plover,Charadrius ruficapillus,Vagrant,http://nzbirdsonline.org.nz/species/red-capped-plover
@@ -302,7 +304,7 @@ Pacific gull,Larus pacificus,Vagrant,http://nzbirdsonline.org.nz/species/pacific
 Southern black-backed gull,Larus dominicanus,Not Threatened,http://nzbirdsonline.org.nz/species/southern-black-backed-gull
 Franklin's gull,Larus pipixcan,Vagrant,http://nzbirdsonline.org.nz/species/franklins-gull
 Red-billed gull,Larus novaehollandiae,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/red-billed-gull
-Black-billed gull,Larus bulleri,Nationally Endangered,http://nzbirdsonline.org.nz/species/black-billed-gull
+Black-billed gull,Larus bulleri,Nationally Critical,http://nzbirdsonline.org.nz/species/black-billed-gull
 Brown noddy,Anous stolidus,Coloniser,http://nzbirdsonline.org.nz/species/brown-noddy
 Black noddy,Anous minutus,Naturally Uncommon,http://nzbirdsonline.org.nz/species/black-noddy
 Grey noddy,Procelsterna cerulea,Naturally Uncommon,http://nzbirdsonline.org.nz/species/grey-noddy
@@ -326,20 +328,23 @@ Rock pigeon,Columba livia,Introduced and Naturalised,http://nzbirdsonline.org.nz
 Barbary dove,Streptopelia risoria,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/barbary-dove
 Spotted dove,Streptopelia chinensis,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/spotted-dove
 New Zealand pigeon,Hemiphaga novaeseelandiae,Not Threatened,http://nzbirdsonline.org.nz/species/new-zealand-pigeon
-Chatham Island pigeon,Hemiphaga chathamensis,Nationally Critical,http://nzbirdsonline.org.nz/species/chatham-island-pigeon
+Chatham Island pigeon,Hemiphaga chathamensis,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/chatham-island-pigeon
 Kakapo,Strigops habroptilus,Nationally Critical,http://nzbirdsonline.org.nz/species/kakapo
 Kaka,Nestor meridionalis,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/kaka
-Kea,Nestor notabilis,Naturally Uncommon,http://nzbirdsonline.org.nz/species/kea
+Chatham Island kaka,Nestor chathamensis,Extinct,http://nzbirdsonline.org.nz/species/chatham-island-kaka
+Kea,Nestor notabilis,Nationally Endangered,http://nzbirdsonline.org.nz/species/kea
 Sulphur-crested cockatoo,Cacatua galerita,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/sulphur-crested-cockatoo
 Galah,Eolophus roseicapillus,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/galah
+Rose-ringed parakeet,Psittacula krameri,"Introduced, not established",http://nzbirdsonline.org.nz/species/rose-ringed-parakeet
 Crimson rosella,Platycercus elegans,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/crimson-rosella
 Eastern rosella,Platycercus eximius,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/eastern-rosella
 Red-crowned parakeet,Cyanoramphus novaezelandiae,Relict,http://nzbirdsonline.org.nz/species/red-crowned-parakeet
 Yellow-crowned parakeet,Cyanoramphus auriceps,Not Threatened,http://nzbirdsonline.org.nz/species/yellow-crowned-parakeet
-Orange-fronted parakeet,Cyanoramphus malherbi,Nationally Critical,http://nzbirdsonline.org.nz/species/orange-fronted-parakeet
+Orange-fronted parakeet,Cyanoramphus malherbi,Nationally Endangered,http://nzbirdsonline.org.nz/species/orange-fronted-parakeet
 Forbes' parakeet,Cyanoramphus forbesi,Nationally Endangered,http://nzbirdsonline.org.nz/species/forbes-parakeet
 Antipodes Island parakeet,Cyanoramphus unicolor,Naturally Uncommon,http://nzbirdsonline.org.nz/species/antipodes-island-parakeet
 Reischek's parakeet,Cyanoramphus hochstetteri,Naturally Uncommon,http://nzbirdsonline.org.nz/species/reischeks-parakeet
+Rainbow lorikeet,Trichoglossus haematodus,"Introduced, not established",http://nzbirdsonline.org.nz/species/rainbow-lorikeet
 Oriental cuckoo,Cuculus optatus,Vagrant,http://nzbirdsonline.org.nz/species/oriental-cuckoo
 Pallid cuckoo,Cuculus pallidus,Vagrant,http://nzbirdsonline.org.nz/species/pallid-cuckoo
 Fan-tailed cuckoo,Cacomantis flabelliformis,Vagrant,http://nzbirdsonline.org.nz/species/fan-tailed-cuckoo
@@ -358,16 +363,17 @@ Sacred kingfisher,Todiramphus sanctus,Not Threatened,http://nzbirdsonline.org.nz
 Dollarbird,Eurystomus orientalis,Vagrant,http://nzbirdsonline.org.nz/species/dollarbird
 Rifleman,Acanthisitta chloris,Declining,http://nzbirdsonline.org.nz/species/rifleman
 Bush wren,Xenicus longipes,Extinct,http://nzbirdsonline.org.nz/species/bush-wren
-Rock wren,Xenicus gilviventris,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/rock-wren
+Rock wren,Xenicus gilviventris,Nationally Endangered,http://nzbirdsonline.org.nz/species/rock-wren
+Lyall's wren,Traversia lyalli,Extinct,http://nzbirdsonline.org.nz/species/lyalls-wren
 North Island stout-legged wren,Pachyplichas jagmi,Extinct,http://nzbirdsonline.org.nz/species/north-island-stout-legged-wren
 South Island stout-legged wren,Pachyplichas yaldwyni,Extinct,http://nzbirdsonline.org.nz/species/south-island-stout-legged-wren
 Long-billed wren,Dendroscansor decurvirostris,Extinct,http://nzbirdsonline.org.nz/species/long-billed-wren
-North Island kokako,Callaeas wilsoni,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/north-island-kokako
+North Island kokako,Callaeas wilsoni,Recovering,http://nzbirdsonline.org.nz/species/north-island-kokako
 South Island kokako,Callaeas cinerea,Data Deficient,http://nzbirdsonline.org.nz/species/south-island-kokako
 North Island saddleback,Philesturnus rufusater,Recovering,http://nzbirdsonline.org.nz/species/north-island-saddleback
 South Island saddleback,Philesturnus carunculatus,Recovering,http://nzbirdsonline.org.nz/species/south-island-saddleback
 Huia,Heteralocha acutirostris,Extinct,http://nzbirdsonline.org.nz/species/huia
-Stitchbird,Notiomystis cincta,Nationally Endangered,http://nzbirdsonline.org.nz/species/stitchbird
+Stitchbird,Notiomystis cincta,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/stitchbird
 North Island piopio,Turnagra tanagra,Extinct,http://nzbirdsonline.org.nz/species/north-island-piopio
 South Island piopio,Turnagra capensis,Extinct,http://nzbirdsonline.org.nz/species/south-island-piopio
 Grey warbler,Gerygone igata,Not Threatened,http://nzbirdsonline.org.nz/species/grey-warbler
@@ -384,6 +390,7 @@ Brown creeper,Mohoua novaeseelandiae,Not Threatened,http://nzbirdsonline.org.nz/
 Australian magpie,Gymnorhina tibicen,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/australian-magpie
 Masked woodswallow,Artamus personatus,Vagrant,http://nzbirdsonline.org.nz/species/masked-woodswallow
 White-browed woodswallow,Artamus superciliosus,Vagrant,http://nzbirdsonline.org.nz/species/white-browed-woodswallow
+Dusky woodswallow,Artamus cyanopterus,Vagrant,http://nzbirdsonline.org.nz/species/dusky-woodswallow
 New Zealand fantail,Rhipidura fuliginosa,Not Threatened,http://nzbirdsonline.org.nz/species/new-zealand-fantail
 Willie wagtail,Rhipidura leucophrys,Vagrant,http://nzbirdsonline.org.nz/species/willie-wagtail
 New Zealand raven,Corvus antipodum,Extinct,http://nzbirdsonline.org.nz/species/new-zealand-raven
@@ -391,6 +398,7 @@ Chatham Island raven,Corvus moriorum,Extinct,http://nzbirdsonline.org.nz/species
 Rook,Corvus frugilegus,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/rook
 Satin flycatcher,Myiagra cyanoleuca,Vagrant,http://nzbirdsonline.org.nz/species/satin-flycatcher
 Black-faced monarch,Monarcha melanopsis,Vagrant,http://nzbirdsonline.org.nz/species/black-faced-monarch
+Magpie-lark,Grallina cyanoleuca,Vagrant,http://nzbirdsonline.org.nz/species/magpie-lark
 Tomtit,Petroica macrocephala,Not Threatened,http://nzbirdsonline.org.nz/species/tomtit
 North Island robin,Petroica longipes,Not Threatened,http://nzbirdsonline.org.nz/species/north-island-robin
 South Island robin,Petroica australis,Not Threatened,http://nzbirdsonline.org.nz/species/south-island-robin
@@ -403,6 +411,7 @@ Silvereye,Zosterops lateralis,Not Threatened,http://nzbirdsonline.org.nz/species
 Welcome swallow,Hirundo neoxena,Not Threatened,http://nzbirdsonline.org.nz/species/welcome-swallow
 Fairy martin,Petrochelidon ariel,Vagrant,http://nzbirdsonline.org.nz/species/fairy-martin
 Tree martin,Petrochelidon nigricans,Vagrant,http://nzbirdsonline.org.nz/species/tree-martin
+Red-vented bulbul,Pycnonotus cafer,"Introduced, not established",http://nzbirdsonline.org.nz/species/red-vented-bulbul
 Eurasian blackbird,Turdus merula,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/eurasian-blackbird
 Song thrush,Turdus philomelos,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/song-thrush
 Common starling,Sturnus vulgaris,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/common-starling
@@ -416,6 +425,7 @@ European goldfinch,Carduelis carduelis,Introduced and Naturalised,http://nzbirds
 Common redpoll,Carduelis flammea,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/common-redpoll
 Yellowhammer,Emberiza citrinella,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/yellowhammer
 Cirl bunting,Emberiza cirlus,Introduced and Naturalised,http://nzbirdsonline.org.nz/species/cirl-bunting
+St Bathans kiwi,Proapteryx micromeros,Extinct,http://nzbirdsonline.org.nz/species/st-bathans-kiwi
 Manuherikia duck,Manuherikia lacustrina,Extinct,http://nzbirdsonline.org.nz/species/manuherikia-duck
 Minute Manuherikia duck,Manuherikia minuta,Extinct,http://nzbirdsonline.org.nz/species/minute-manuherikia-duck
 Douglas' duck,Manuherikia douglasi,Extinct,http://nzbirdsonline.org.nz/species/douglas-duck
@@ -442,11 +452,13 @@ Harris' penguin,Marplesornis novaezealandiae,Extinct,http://nzbirdsonline.org.nz
 Ridgen's penguin,Aptenodytes ridgeni,Extinct,http://nzbirdsonline.org.nz/species/ridgens-penguin
 Tyree's penguin,Pygoscelis tyreei,Extinct,http://nzbirdsonline.org.nz/species/tyrees-penguin
 Moisley's penguin,Tereingaornis moisleyi,Extinct,http://nzbirdsonline.org.nz/species/moisleys-penguin
+Love's Paleocene seabird,Australornis lovei,Extinct,http://nzbirdsonline.org.nz/species/loves-paleocene-seabird
 Miocene diving petrel,Pelecanoides miokuaka,Extinct,http://nzbirdsonline.org.nz/species/miocene-diving-petrel
 Miocene false-toothed pelican,Pelagornis miocaenus,Extinct,http://nzbirdsonline.org.nz/species/miocene-false-toothed-pelican
-Stirton’s false-toothed pelican,Neodontornis stirtoni,Extinct,http://nzbirdsonline.org.nz/species/stirton%E2%80%99s-false-toothed-pelican
+Stirton?s false-toothed pelican,Neodontornis stirtoni,Extinct,http://nzbirdsonline.org.nz/species/stirton%E2%80%99s-false-toothed-pelican
 (bird of unknown affinities),Manu antiquus,Extinct,http://nzbirdsonline.org.nz/species/bird-unknown-affinities
 St Bathans heron,Matuku otagoense,Extinct,http://nzbirdsonline.org.nz/species/st-bathans-heron
+Bartle's bittern,Pikaihao bartlei,Extinct,http://nzbirdsonline.org.nz/species/bartles-bittern
 St Bathans adzebill,Aptornis proasciarostratus,Extinct,http://nzbirdsonline.org.nz/species/st-bathans-adzebill
 Fleming's rail,Pleistorallus flemingi,Extinct,http://nzbirdsonline.org.nz/species/flemings-rail
 St Bathans pigeon,Rupephaps taketake,Extinct,http://nzbirdsonline.org.nz/species/st-bathans-pigeon

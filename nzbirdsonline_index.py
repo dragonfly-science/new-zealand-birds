@@ -28,12 +28,12 @@ with open('nzbirdsonline_index.csv', 'w') as output:
         for result in soup.findAll('div', 'search-result-text'):
             count += 1
             name = HTMLParser().unescape(result.find('h3', 
-                'search-result-title').find('a').contents[0])
+                'search-result-title').find('a').contents[0]).encode('ascii', 'replace')
             url = nzbirds_base + result.find('h3', 
-                'search-result-title').find('a').attrs[0][1]
+                'search-result-title').find('a').attrs[0][1].encode('ascii', 'replace')
             scientific = HTMLParser().unescape(result.find('p', 
-                'search-result-scientific').contents[0])
-            status = result.find('p', 'search-result-status').contents[1]
-            birds.writerow((name, scientific, status, url))
+                'search-result-scientific').contents[0]).encode('ascii', 'replace')
+            status = result.find('p', 'search-result-status').contents[1].encode('ascii', 'replace')
+            birds.writerow((name.strip(), scientific.strip(), status.strip(), url.strip()))
         print 'Page %s, %s birds' % (page, count)
 
