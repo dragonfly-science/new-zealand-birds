@@ -20,12 +20,21 @@ print '%s pages'%pages
 
 #Now parse each page
 count = 0
+max_tries = 10
 
 with open('nzbirdsonline_index.csv', 'w') as output:
     birds = csv.writer(output)
-    birds.writerow(('common_name', 'scientific_name', 'status', 'url'))
+    birds.writerow(('common_name', 'order', 'family', 'scientific_name', 'status', 'url'))
     for page in range(pages + 1):
-        soup = bs(urllib2.urlopen(nzbirds_page % page).read())
+        tries = 0
+        while tries < max_tries:
+            print tries
+            try:
+                soup = bs(urllib2.urlopen(nzbirds_page % page).read())
+                tries = max_tries
+                break
+            except urllib2.URLError:
+                tries += 1
         for result in soup.findAll('div', 'search-result-text'):
             count += 1
             name = HTMLParser().unescape(result.find('h3', 
@@ -36,6 +45,23 @@ with open('nzbirdsonline_index.csv', 'w') as output:
             scientific = HTMLParser().unescape(result.find('p', 
                 'search-result-scientific').contents[0]).encode('ascii', 'replace')
             status = result.find('p', 'search-result-status').contents[1].encode('ascii', 'replace')
-            birds.writerow((name.strip(), scientific.strip(), status.strip(), url.strip()))
-        print 'Page %s, %s birds' % (page, count)
+            tries = 0
+            while tries < max_tries:
+                try:
+                    print tries
+                    detail = bs(urllib2.urlopen(url).read())
+                    tries = max_tries
+                    break
+                except urllib2.URLError:
+                    tries += 1
+            try:
+                order = detail(text='Order: ')[0].parent.parent.find('a').contents[0]
+            except IndexError:
+                order = ''
+            try:
+                family = detail(text='Family: ')[0].parent.parent.find('a').contents[0]
+            except IndexError:
+                family = ''
+            birds.writerow((name.strip(), order.strip(), family.strip(), scientific.strip(), status.strip(), url.strip()))
+            print 'Page %s, %s birds: %s' % (page, count, name)
 
