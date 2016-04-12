@@ -20,6 +20,7 @@ print '%s pages'%pages
 
 #Now parse each page
 count = 0
+
 with open('nzbirdsonline_index.csv', 'w') as output:
     birds = csv.writer(output)
     birds.writerow(('common_name', 'scientific_name', 'status', 'url'))
@@ -29,6 +30,7 @@ with open('nzbirdsonline_index.csv', 'w') as output:
             count += 1
             name = HTMLParser().unescape(result.find('h3', 
                 'search-result-title').find('a').contents[0]).encode('ascii', 'replace')
+            name = name.replace("Stirton?s", "Stirton's")
             url = nzbirds_base + result.find('h3', 
                 'search-result-title').find('a').attrs[0][1].encode('ascii', 'replace')
             scientific = HTMLParser().unescape(result.find('p', 

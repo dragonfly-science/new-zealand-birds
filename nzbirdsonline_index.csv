@@ -40,6 +40,7 @@ Auckland Island merganser,Mergus australis,Extinct,http://nzbirdsonline.org.nz/s
 Chatham Island merganser,Mergus milleneri,Extinct,http://nzbirdsonline.org.nz/species/chatham-island-merganser
 Australian wood duck,Chenonetta jubata,Vagrant,http://nzbirdsonline.org.nz/species/australian-wood-duck
 Finsch's duck,Chenonetta finschi,Extinct,http://nzbirdsonline.org.nz/species/finschs-duck
+Muscovy duck,Cairina moschata,"Introduced, not established",http://nzbirdsonline.org.nz/species/muscovy-duck
 Blue duck,Hymenolaimus malacorhynchos,Nationally Vulnerable,http://nzbirdsonline.org.nz/species/blue-duck
 Chatham Island duck,Pachyanas chathamica,Extinct,http://nzbirdsonline.org.nz/species/chatham-island-duck
 Grey teal,Anas gracilis,Not Threatened,http://nzbirdsonline.org.nz/species/grey-teal
@@ -93,6 +94,7 @@ Sooty albatross,Phoebetria fusca,Vagrant,http://nzbirdsonline.org.nz/species/soo
 Light-mantled sooty albatross,Phoebetria palpebrata,Declining,http://nzbirdsonline.org.nz/species/light-mantled-sooty-albatross
 Southern giant petrel,Macronectes giganteus,Migrant,http://nzbirdsonline.org.nz/species/southern-giant-petrel
 Northern giant petrel,Macronectes halli,Naturally Uncommon,http://nzbirdsonline.org.nz/species/northern-giant-petrel
+Northern fulmar,Fulmarus glacialis,Vagrant,http://nzbirdsonline.org.nz/species/northern-fulmar
 Antarctic fulmar,Fulmarus glacialoides,Migrant,http://nzbirdsonline.org.nz/species/antarctic-fulmar
 Antarctic petrel,Thalassoica antarctica,Vagrant,http://nzbirdsonline.org.nz/species/antarctic-petrel
 Cape petrel,Daption capense,Naturally Uncommon,http://nzbirdsonline.org.nz/species/cape-petrel
@@ -114,6 +116,7 @@ Cook's petrel,Pterodroma cookii,Relict,http://nzbirdsonline.org.nz/species/cooks
 Stejneger's petrel,Pterodroma longirostris,Vagrant,http://nzbirdsonline.org.nz/species/stejnegers-petrel
 Pycroft's petrel,Pterodroma pycrofti,Recovering,http://nzbirdsonline.org.nz/species/pycrofts-petrel
 Gould's petrel,Pterodroma leucoptera,Vagrant,http://nzbirdsonline.org.nz/species/goulds-petrel
+Imber's petrel,Pterodroma imberi,Extinct,http://nzbirdsonline.org.nz/species/imbers-petrel
 Blue petrel,Halobaena caerulea,Migrant,http://nzbirdsonline.org.nz/species/blue-petrel
 Broad-billed prion,Pachyptila vittata,Relict,http://nzbirdsonline.org.nz/species/broad-billed-prion
 Salvin's prion,Pachyptila salvini,Migrant,http://nzbirdsonline.org.nz/species/salvins-prion
@@ -455,12 +458,13 @@ Moisley's penguin,Tereingaornis moisleyi,Extinct,http://nzbirdsonline.org.nz/spe
 Love's Paleocene seabird,Australornis lovei,Extinct,http://nzbirdsonline.org.nz/species/loves-paleocene-seabird
 Miocene diving petrel,Pelecanoides miokuaka,Extinct,http://nzbirdsonline.org.nz/species/miocene-diving-petrel
 Miocene false-toothed pelican,Pelagornis miocaenus,Extinct,http://nzbirdsonline.org.nz/species/miocene-false-toothed-pelican
-Stirton?s false-toothed pelican,Neodontornis stirtoni,Extinct,http://nzbirdsonline.org.nz/species/stirton%E2%80%99s-false-toothed-pelican
+Stirton's false-toothed pelican,Neodontornis stirtoni,Extinct,http://nzbirdsonline.org.nz/species/stirton%E2%80%99s-false-toothed-pelican
 (bird of unknown affinities),Manu antiquus,Extinct,http://nzbirdsonline.org.nz/species/bird-unknown-affinities
 St Bathans heron,Matuku otagoense,Extinct,http://nzbirdsonline.org.nz/species/st-bathans-heron
 Bartle's bittern,Pikaihao bartlei,Extinct,http://nzbirdsonline.org.nz/species/bartles-bittern
 St Bathans adzebill,Aptornis proasciarostratus,Extinct,http://nzbirdsonline.org.nz/species/st-bathans-adzebill
 Fleming's rail,Pleistorallus flemingi,Extinct,http://nzbirdsonline.org.nz/species/flemings-rail
+New Zealand lake-wanderer,Hakawai melvillei,Extinct,http://nzbirdsonline.org.nz/species/new-zealand-lake-wanderer
 St Bathans pigeon,Rupephaps taketake,Extinct,http://nzbirdsonline.org.nz/species/st-bathans-pigeon
 Little St Bathans parrot,Nelepsittacus minimus,Extinct,http://nzbirdsonline.org.nz/species/little-st-bathans-parrot
 Merton's parrot,Nelepsittacus donmertoni,Extinct,http://nzbirdsonline.org.nz/species/mertons-parrot
