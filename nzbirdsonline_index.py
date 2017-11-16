@@ -1,8 +1,9 @@
 import csv
-from HTMLParser import HTMLParser
 import re
-import urllib2
+import sys
 import time
+import urllib2
+from HTMLParser import HTMLParser
 
 #Uses BeautifulSoup 3, the syntax has since changed,
 #so this may need to be updated
@@ -50,17 +51,21 @@ class BirdGatherer:
                 url = '{}{}'.format(self.search_url, page)
                 # reset attempt counter
                 tries = 0
+                soup = None
                 while tries < self.max_tries:
-                    print('Attempt {} retrieving: {}'.format(tries, url))
+                    print('Attempt {} retrieving: {}'.format(tries + 1, url))
                     try:
                         # parse the page and break if successful
                         soup = bs(urllib2.urlopen(url).read())
-                        tries = self.max_tries
+                        tries += 1
                         break
                     except urllib2.URLError:
                         # sleep briefly if there's an error
                         tries += 1
                         time.sleep(self.sleep_dur)
+                if not soup:
+                    print('* Exiting early as {} failed {} times...'.format(url, tries + 1))
+                    sys.exit()
 
                 # parse the page results, getting structured page data back in a list
                 page_results = self.parse_result_page(page, soup)
@@ -97,16 +102,21 @@ class BirdGatherer:
             tries = 0
 
              # Get detail page for each bird
+            detail = None
             while tries < self.max_tries:
                 try:
-                    print('  Getting details for "{}" (attempt {}) {}'.format(name, tries, url))
+                    print('  Getting details for "{}" (attempt {}) {}'.format(name, tries + 1, url))
                     detail = bs(urllib2.urlopen(url).read())
-                    tries = self.max_tries
+                    tries += 1
                     break
                 except urllib2.URLError:
                     # sleep briefly if there's an error
                     tries += 1
                     time.sleep(self.sleep_dur)
+
+            if not detail:
+                print('* Exiting early as {} failed {} times...'.format(url, tries + 1))
+                sys.exit()
 
             # extract additional data from details page
             order       = self.get_infobox_text('Order: ', detail)
