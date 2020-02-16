@@ -90,7 +90,6 @@ class BirdGatherer:
             # extract data from the results page
             name = HTMLParser().unescape(result.find('h3', 'search-result-title').find('a')\
                 .contents[0]).encode('ascii', 'replace')
-            name = name.replace("Stirton?s", "Stirton's") # TODO - make more robust
 
             url = self.base_url + result.find('h3', 'search-result-title').find('a')\
                 .attrs[0][1].encode('ascii', 'replace')
