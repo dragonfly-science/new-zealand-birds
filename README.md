@@ -38,6 +38,5 @@ Generating the list
 --------------------
 The csv file was generated from the
 [New Zealand Birds Online](http://nzbirdsonline.org.nz) website by running the script 
-`python nzbirdsonline_index.py`. This script depends on `BeautifulSoup` 
-and uses the older version 3.
+`python3 nzbirdsonline_index.py`. This script depends on the web-scraping package `beautifulsoup4'.
 

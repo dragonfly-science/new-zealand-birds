@@ -2,12 +2,10 @@ import csv
 import re
 import sys
 import time
-import urllib2
-from HTMLParser import HTMLParser
+import urllib
+from html.parser import HTMLParser
 
-#Uses BeautifulSoup 3, the syntax has since changed,
-#so this may need to be updated
-from BeautifulSoup import BeautifulSoup as bs
+from bs4 import BeautifulSoup as bs
 
 class BirdGatherer:
     def __init__(self, max_tries=10, sleep_dur=3):
@@ -19,11 +17,21 @@ class BirdGatherer:
         self.sleep_dur = sleep_dur # if an attempt fails, sleep a few seconds
 
     def count_results_pages(self):
-        ''' Find the number of results pages '''
-        soup = bs(urllib2.urlopen(self.search_url).read())
+        ''' 
+        Find the number of results pages.
+        This is extracted from the pager, with HTML like:
+
+        <li class="pager-last last">
+            <a href="/name-search?field_other_names_value=&amp;title=&amp;page=48" title="Go to last page">
+                last »
+            </a>
+        </li>
+
+        '''
+        soup = bs(urllib.request.urlopen(self.search_url).read(), "lxml")
         self.num_results_pages = int(
             re.match('.*page=(?P<page>\d+)',
-            soup.find('li', 'pager-last').find('a').attrs[1][1]).groups()[0]
+            soup.find('li', {"class": "pager-last"}).find('a')['href']).groups()[0]
         )
         print('There are {} pages of results.'.format(self.num_results_pages))
 
@@ -56,10 +64,10 @@ class BirdGatherer:
                     print('Attempt {} retrieving: {}'.format(tries + 1, url))
                     try:
                         # parse the page and break if successful
-                        soup = bs(urllib2.urlopen(url).read())
+                        soup = bs(urllib.request.urlopen(url).read(), "lxml")
                         tries += 1
                         break
-                    except urllib2.URLError:
+                    except urllib.error.URLError:
                         # sleep briefly if there's an error
                         tries += 1
                         time.sleep(self.sleep_dur)
@@ -88,17 +96,14 @@ class BirdGatherer:
             self.bird_counter += 1
 
             # extract data from the results page
-            name = HTMLParser().unescape(result.find('h3', 'search-result-title').find('a')\
-                .contents[0]).encode('ascii', 'replace')
-            name = name.replace("Stirton?s", "Stirton's") # TODO - make more robust
-
-            url = self.base_url + result.find('h3', 'search-result-title').find('a')\
-                .attrs[0][1].encode('ascii', 'replace')
-
-            scientific = HTMLParser().unescape(result.find('p', 'search-result-scientific').\
-                contents[0]).encode('ascii', 'replace')
-
-            con_status = result.find('p', 'search-result-status').contents[1].encode('ascii', 'replace')
+            name = HTMLParser().unescape(str(result.find('h3', 'search-result-title').find('a')\
+                .contents[0]))
+            #name = name.replace("Stirton?s", "Stirton's") # TODO - make more robust
+            url = self.base_url + str(result.find('h3', 'search-result-title').\
+                find('a')['href'])
+            scientific = HTMLParser().unescape(str(result.find('p', 'search-result-scientific').\
+                contents[0]))
+            con_status = str(result.find('p', 'search-result-status').contents[1])
             tries = 0
 
              # Get detail page for each bird
@@ -106,10 +111,10 @@ class BirdGatherer:
             while tries < self.max_tries:
                 try:
                     print('  Getting details for "{}" (attempt {}) {}'.format(name, tries + 1, url))
-                    detail = bs(urllib2.urlopen(url).read())
+                    detail = bs(urllib.request.urlopen(url).read(), "lxml")
                     tries += 1
                     break
-                except urllib2.URLError:
+                except urllib.error.URLError:
                     # sleep briefly if there's an error
                     tries += 1
                     time.sleep(self.sleep_dur)

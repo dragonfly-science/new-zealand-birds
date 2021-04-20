@@ -70,6 +70,7 @@ Moseley's rockhopper penguin,Sphenisciformes,Spheniscidae,Eudyptes moseleyi,Vagr
 Fiordland crested penguin,Sphenisciformes,Spheniscidae,Eudyptes pachyrhynchus,Nationally Vulnerable,Endemic,http://nzbirdsonline.org.nz/species/fiordland-crested-penguin
 Snares crested penguin,Sphenisciformes,Spheniscidae,Eudyptes robustus,Naturally Uncommon,Endemic,http://nzbirdsonline.org.nz/species/snares-crested-penguin
 Erect-crested penguin,Sphenisciformes,Spheniscidae,Eudyptes sclateri,Declining,Endemic,http://nzbirdsonline.org.nz/species/erect-crested-penguin
+Chatham Island crested penguin,Sphenisciformes,Spheniscidae,Eudyptes warhami,Extinct,Endemic,http://nzbirdsonline.org.nz/species/chatham-island-crested-penguin
 Macaroni penguin,Sphenisciformes,Spheniscidae,Eudyptes chrysolophus,Vagrant,Native,http://nzbirdsonline.org.nz/species/macaroni-penguin
 Royal penguin,Sphenisciformes,Spheniscidae,Eudyptes schlegeli,Vagrant,Native,http://nzbirdsonline.org.nz/species/royal-penguin
 Yellow-eyed penguin,Sphenisciformes,Spheniscidae,Megadyptes antipodes,Nationally Endangered,Endemic,http://nzbirdsonline.org.nz/species/yellow-eyed-penguin
@@ -118,6 +119,7 @@ Cook's petrel,Procellariiformes,Procellariidae,Pterodroma cookii,Relict,Endemic,
 Stejneger's petrel,Procellariiformes,Procellariidae,Pterodroma longirostris,Vagrant,Native,http://nzbirdsonline.org.nz/species/stejnegers-petrel
 Pycroft's petrel,Procellariiformes,Procellariidae,Pterodroma pycrofti,Recovering,Endemic,http://nzbirdsonline.org.nz/species/pycrofts-petrel
 Gould's petrel,Procellariiformes,Procellariidae,Pterodroma leucoptera,Migrant,Native,http://nzbirdsonline.org.nz/species/goulds-petrel
+Collared petrel,Procellariiformes,Procellariidae,Pterodroma brevipes,Vagrant,Native,http://nzbirdsonline.org.nz/species/collared-petrel
 Blue petrel,Procellariiformes,Procellariidae,Halobaena caerulea,Migrant,Native,http://nzbirdsonline.org.nz/species/blue-petrel
 Broad-billed prion,Procellariiformes,Procellariidae,Pachyptila vittata,Relict,Native,http://nzbirdsonline.org.nz/species/broad-billed-prion
 Salvin's prion,Procellariiformes,Procellariidae,Pachyptila salvini,Migrant,Native,http://nzbirdsonline.org.nz/species/salvins-prion
@@ -173,6 +175,7 @@ Little black shag,Pelecaniformes,Phalacrocoracidae,Phalacrocorax sulcirostris,Na
 New Zealand king shag,Pelecaniformes,Phalacrocoracidae,Leucocarbo carunculatus,Nationally Endangered,Endemic,http://nzbirdsonline.org.nz/species/new-zealand-king-shag
 Stewart Island shag,Pelecaniformes,Phalacrocoracidae,Leucocarbo chalconotus,Recovering,Endemic,http://nzbirdsonline.org.nz/species/stewart-island-shag
 Chatham Island shag,Pelecaniformes,Phalacrocoracidae,Leucocarbo onslowi,Nationally Critical,Endemic,http://nzbirdsonline.org.nz/species/chatham-island-shag
+Kohatu shag,Pelecaniformes,Phalacrocoracidae,Leucocarbo septentrionalis,Extinct,Endemic,http://nzbirdsonline.org.nz/species/kohatu-shag
 Bounty Island shag,Pelecaniformes,Phalacrocoracidae,Leucocarbo ranfurlyi,Naturally Uncommon,Endemic,http://nzbirdsonline.org.nz/species/bounty-island-shag
 Auckland Island shag,Pelecaniformes,Phalacrocoracidae,Leucocarbo colensoi,Nationally Vulnerable,Endemic,http://nzbirdsonline.org.nz/species/auckland-island-shag
 Campbell Island shag,Pelecaniformes,Phalacrocoracidae,Leucocarbo campbelli,Naturally Uncommon,Endemic,http://nzbirdsonline.org.nz/species/campbell-island-shag
@@ -332,6 +335,7 @@ Crested tern,Charadriiformes,Sternidae,Sterna bergii,Vagrant,Native,http://nzbir
 Rock pigeon,Columbiformes,Columbidae,Columba livia,Introduced and Naturalised,Introduced,http://nzbirdsonline.org.nz/species/rock-pigeon
 Barbary dove,Columbiformes,Columbidae,Streptopelia risoria,Introduced and Naturalised,Introduced,http://nzbirdsonline.org.nz/species/barbary-dove
 Spotted dove,Columbiformes,Columbidae,Streptopelia chinensis,Introduced and Naturalised,Introduced,http://nzbirdsonline.org.nz/species/spotted-dove
+Rose-crowned fruit-dove,Columbiformes,Columbidae,Ptilinopus regina,Vagrant,Native,http://nzbirdsonline.org.nz/species/rose-crowned-fruit-dove
 New Zealand pigeon,Columbiformes,Columbidae,Hemiphaga novaeseelandiae,Not Threatened,Endemic,http://nzbirdsonline.org.nz/species/new-zealand-pigeon
 Chatham Island pigeon,Columbiformes,Columbidae,Hemiphaga chathamensis,Nationally Vulnerable,Endemic,http://nzbirdsonline.org.nz/species/chatham-island-pigeon
 Kakapo,Psittaciformes,Strigopidae,Strigops habroptilus,Nationally Critical,Endemic,http://nzbirdsonline.org.nz/species/kakapo
@@ -443,6 +447,7 @@ Waitaki penguin,Sphenisciformes,Spheniscidae,Kairuku waitaki,Extinct,Endemic,htt
 Grebneff's penguin,Sphenisciformes,Spheniscidae,Kairuku grebneffi,Extinct,Endemic,http://nzbirdsonline.org.nz/species/grebneffs-penguin
 Mannering's penguin,Sphenisciformes,Spheniscidae,Waimanu manneringi,Extinct,Endemic,http://nzbirdsonline.org.nz/species/mannerings-penguin
 Waipara penguin,Sphenisciformes,Spheniscidae,Waimanu tuatahi,Extinct,Endemic,http://nzbirdsonline.org.nz/species/waipara-penguin
+Bice's penguin,Sphenisciformes,Spheniscidae,Kuminanu biceae,Extinct,Endemic,http://nzbirdsonline.org.nz/species/bices-penguin
 Huxley's penguin,Sphenisciformes,Spheniscidae,Palaeeudyptes antarcticus,Extinct,Endemic,http://nzbirdsonline.org.nz/species/huxleys-penguin
 Marples' penguin,Sphenisciformes,Spheniscidae,Palaeeudyptes marplesi,Extinct,Endemic,http://nzbirdsonline.org.nz/species/marples-penguin
 New Zealand giant penguin,Sphenisciformes,Spheniscidae,Pachydyptes ponderosus,Extinct,Endemic,http://nzbirdsonline.org.nz/species/new-zealand-giant-penguin
@@ -450,14 +455,15 @@ Simpson's penguin,Sphenisciformes,Spheniscidae,Platydyptes marplesi,Extinct,Ende
 Wide-flippered penguin,Sphenisciformes,Spheniscidae,Platydyptes novaezealandiae,Extinct,Endemic,http://nzbirdsonline.org.nz/species/wide-flippered-penguin
 Amies' penguin,Sphenisciformes,Spheniscidae,Platydyptes amiesi,Extinct,Endemic,http://nzbirdsonline.org.nz/species/amies-penguin
 Lowe's penguin,Sphenisciformes,Spheniscidae,Archaeospheniscus lowei,Extinct,Endemic,http://nzbirdsonline.org.nz/species/lowes-penguin
-Lopdells' penguin,Sphenisciformes,Spheniscidae,Archaeospheniscus lopdellorum,Extinct,Endemic,http://nzbirdsonline.org.nz/species/lopdells-penguin
 Duntroon penguin,Sphenisciformes,Spheniscidae,Duntroonornis parvus,Extinct,Endemic,http://nzbirdsonline.org.nz/species/duntroon-penguin
+Lopdells' penguin,Sphenisciformes,Spheniscidae,Archaeospheniscus lopdellorum,Extinct,Endemic,http://nzbirdsonline.org.nz/species/lopdells-penguin
 Oliver's penguin,Sphenisciformes,Spheniscidae,Korora oliveri,Extinct,Endemic,http://nzbirdsonline.org.nz/species/olivers-penguin
 Harris' penguin,Sphenisciformes,Spheniscidae,Marplesornis novaezealandiae,Extinct,Endemic,http://nzbirdsonline.org.nz/species/harris-penguin
 Ridgen's penguin,Sphenisciformes,Spheniscidae,Aptenodytes ridgeni,Extinct,Endemic,http://nzbirdsonline.org.nz/species/ridgens-penguin
 Tyree's penguin,Sphenisciformes,Spheniscidae,Pygoscelis tyreei,Extinct,Endemic,http://nzbirdsonline.org.nz/species/tyrees-penguin
 Moisley's penguin,Sphenisciformes,Spheniscidae,Tereingaornis moisleyi,Extinct,Endemic,http://nzbirdsonline.org.nz/species/moisleys-penguin
 Love's Paleocene seabird,Unknown,Incertae sedis,Australornis lovei,Extinct,Endemic,http://nzbirdsonline.org.nz/species/loves-paleocene-seabird
+Alastair's albatross,Procellariiformes,Diomedeidae,Aldiomedes angustirostris,Extinct,Endemic,http://nzbirdsonline.org.nz/species/alastairs-albatross
 Miocene diving petrel,Procellariiformes,Pelecanoididae,Pelecanoides miokuaka,Extinct,Endemic,http://nzbirdsonline.org.nz/species/miocene-diving-petrel
 Miocene false-toothed pelican,Pelecaniformes,Pelagornithidae,Pelagornis miocaenus,Extinct,Native,http://nzbirdsonline.org.nz/species/miocene-false-toothed-pelican
 Stirton's false-toothed pelican,Pelecaniformes,Pelagornithidae,Neodontornis stirtoni,Extinct,Endemic,http://nzbirdsonline.org.nz/species/stirtons-false-toothed-pelican
