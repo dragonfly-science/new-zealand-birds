@@ -51,7 +51,8 @@ class BirdGatherer:
                 'scientific_name',
                 'conservation_status', # this was status in earlier version
                 'nz_status',
-                'url'
+                'url',
+                'other_names'
             ])
 
             for page in range(self.num_results_pages + 1):
@@ -85,9 +86,16 @@ class BirdGatherer:
     def get_infobox_text(self, label, detail):
         ''' Extract data from detail page info-box '''
         try:
-            return detail(text=label)[0].parent.parent.find('a').contents[0]
+            component =  detail(text=label)[0]
         except IndexError:
             return ''
+        try:
+            return component.parent.parent.find('a').contents[0]
+        except AttributeError:
+            try:
+                return component.parent.nextSibling
+            except AttributeError:
+                return ''
 
     def parse_result_page(self, page, soup):
         ''' Parse each bird on the result page '''
@@ -127,6 +135,7 @@ class BirdGatherer:
             order       = self.get_infobox_text('Order: ', detail)
             family      = self.get_infobox_text('Family: ', detail)
             nz_status   = self.get_infobox_text('New Zealand status: ', detail)
+            other_names = self.get_infobox_text('Other names: ', detail)
 
             # compile results into a single line for export to CSV
             results.append([
@@ -136,7 +145,8 @@ class BirdGatherer:
                 scientific.strip(),
                 con_status.strip(),
                 nz_status.strip(),
-                url.strip()
+                url.strip(),
+                other_names.strip(),
             ])
             print('  Got {} ({})'.format(name, self.bird_counter))
         return results
