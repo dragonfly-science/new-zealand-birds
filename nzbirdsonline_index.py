@@ -3,7 +3,7 @@ import re
 import sys
 import time
 import urllib
-from html.parser import HTMLParser
+import html
 
 from bs4 import BeautifulSoup as bs
 
@@ -41,11 +41,11 @@ class BirdGatherer:
         self.count_results_pages()
 
         # open CSV for writing
-        with open(dst_file, 'w') as output:
-            birds_csv = csv.writer(output)
+        with open(dst_file, 'w', newline='', encoding='utf-8') as output:
+            birds_csv = csv.writer(output, lineterminator='\n')
             # write the header
             birds_csv.writerow([
-                'common_name',
+                'name',
                 'order',
                 'family',
                 'scientific_name',
@@ -104,12 +104,12 @@ class BirdGatherer:
             self.bird_counter += 1
 
             # extract data from the results page
-            name = HTMLParser().unescape(str(result.find('h3', 'search-result-title').find('a')\
+            name = html.unescape(str(result.find('h3', 'search-result-title').find('a')\
                 .contents[0]))
             #name = name.replace("Stirton?s", "Stirton's") # TODO - make more robust
             url = self.base_url + str(result.find('h3', 'search-result-title').\
                 find('a')['href'])
-            scientific = HTMLParser().unescape(str(result.find('p', 'search-result-scientific').\
+            scientific = html.unescape(str(result.find('p', 'search-result-scientific').\
                 contents[0]))
             con_status = str(result.find('p', 'search-result-status').contents[1])
             tries = 0
